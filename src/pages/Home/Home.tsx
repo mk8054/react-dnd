@@ -138,7 +138,7 @@ function Home() {
   return (
     <Container fluid>
       <Row>
-        <Col xl="9" className="workArea">
+        <Col md="9" className="workArea">
           {
             gridLayout.length === 0 ?
               <div className="dropArea">
@@ -161,7 +161,7 @@ function Home() {
             {generateLayout()}
           </ReactGridLayout>
         </Col>
-        <Col xl="3" className="p-0">
+        <Col md="3" className="p-0">
           <div className="itemsArea">
             <div className="group">
               <div className="heading">
